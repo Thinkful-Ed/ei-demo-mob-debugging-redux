@@ -1,11 +1,9 @@
 export const SET_CUPS = 'SET_CUPS';
-export const setCups = cups => ({
-    type: SET_CUPS,
-    cups
+export const setCups = () => ({
+    type: SET_CUPS
 });
 
 export const SET_ML = 'SET_ML';
-export const setMl = ml => ({
-    type: SET_ML,
-    ml
+export const setMl = () => ({
+    type: SET_ML
 });
